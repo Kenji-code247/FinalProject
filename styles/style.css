@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #56ccf2, #00ffff);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {background-position:0% 50%;}
+  50% {background-position:100% 50%;}
+  100% {background-position:0% 50%;}
+}
+
+header, footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: rgba(0,0,0,0.3);
+  backdrop-filter: blur(8px);
+}
+
+header h1, header h2 {
+  margin: 0.2rem;
+}
+
+header h1 b {
+  color: #00ffff;
+}
+
+header h2 b {
+  color: #00dfff;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.btn {
+  background: linear-gradient(135deg, #00dfff, #56ccf2);
+  padding: 0.8rem 1.5rem;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #56ccf2, #00dfff);
+}

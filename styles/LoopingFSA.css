@@ -1,0 +1,38 @@
+.assignment-container {
+  background: rgba(255,255,255,0.05);
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 450px;
+  margin: 2rem auto;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.assignment-container input {
+  width: 80%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.assignment-container button {
+  cursor: pointer;
+  background: #4c52ff;
+  border: none;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.assignment-container button:hover {
+  background: #6b73ff;
+  transform: scale(1.05);
+}
+
+.assignment-container p {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}

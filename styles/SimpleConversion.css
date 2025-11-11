@@ -1,0 +1,43 @@
+.assignment-container {
+  background: rgba(0,0,0,0.4);
+  padding: 1.5rem;
+  border-radius: 15px;
+  max-width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,255,255,0.3);
+}
+
+.assignment-container input,
+.assignment-container select {
+  width: 80%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  border: 1px solid #00ffff;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+.assignment-container button {
+  cursor: pointer;
+  background: linear-gradient(135deg, #00dfff, #56ccf2);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 0.7rem 1.2rem;
+  border-radius: 12px;
+  font-weight: bold;
+  margin: 0.3rem;
+  transition: 0.3s;
+}
+
+.assignment-container button:hover {
+  background: linear-gradient(135deg, #56ccf2, #00dfff);
+  transform: scale(1.05);
+}
+
+.assignment-container p {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #00ffff;
+}

@@ -1,0 +1,49 @@
+.assignment-container {
+  background: rgba(255,255,255,0.05);
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.assignment-container input {
+  width: 60%;
+  padding: 0.5rem;
+  margin: 0.3rem 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.assignment-container button {
+  cursor: pointer;
+  background: #4c52ff;
+  border: none;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 0.3rem;
+  transition: 0.3s;
+}
+
+.assignment-container button:hover {
+  background: #6b73ff;
+  transform: scale(1.05);
+}
+
+#payrollTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+#payrollTable th, #payrollTable td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+}
+
+#payrollTable th {
+  background: rgba(255,255,255,0.1);
+}

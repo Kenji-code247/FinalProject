@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignment #4 Payroll</title>
+<link rel="stylesheet" href="../styles/style.css">
+<link rel="stylesheet" href="../styles/Payroll.css">
+</head>
+<body>
+<header>
+<h1><b>CS 1130 - Introduction To Computing</b></h1>
+<h2>by <b>Kenmer Dave A. Emban</b></h2>
+<p>Assignment #4: Payroll</p>
+</header>
+
+<main>
+<section class="assignment-container">
+<label for="empName">Employee Name:</label>
+<input type="text" id="empName" placeholder="Enter name"><br>
+
+<label for="daysWorked">Days Worked:</label>
+<input type="number" id="daysWorked" placeholder="Enter days worked"><br>
+
+<label for="dailyRate">Daily Rate:</label>
+<input type="number" id="dailyRate" placeholder="Enter daily rate"><br>
+
+<label for="deduction">Deduction Amount:</label>
+<input type="number" id="deduction" placeholder="Enter deduction"><br><br>
+
+<button id="addBtn">Add Employee</button>
+<button id="deleteBtn">Delete Employee</button>
+<button id="clearBtn">Clear Table</button>
+
+<table id="payrollTable">
+<thead>
+<tr>
+<th>No.</th>
+<th>Employee Name</th>
+<th>Days Worked</th>
+<th>Daily Rate</th>
+<th>Gross Pay</th>
+<th>Deduction</th>
+<th>Net Pay</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</section>
+
+<section class="button-grid">
+<a href="index.html" class="btn">Back to Home</a>
+</section>
+</main>
+
+<footer>
+<h3>Welcome!</h3>
+<p>This website showcases my CS1130 Final Project. Each program demonstrates a different JavaScript concept including conversion, tax computation, looping, and payroll processing. Click any tab to explore.</p>
+</footer>
+
+<script src="../scripts/script.js"></script>
+<script src="../scripts/Payroll.js"></script>
+</body>
+</html>
